@@ -19,12 +19,6 @@ class GameAgent:
         time.sleep(1) # Simulate network delay
         self.is_connected = True
         print("✅ Connection successful. Agent is online.")
-
-    def analyze_game_state(self):
-        """Simulates analyzing the current state of the game."""
-        if not self.is_connected:
-            print("❌ Cannot analyze. Agent is not connected to the server.")
-            return None
         
         print("\nAnalyzing game state...")
         time.sleep(0.5)
