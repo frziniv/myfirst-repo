@@ -1,6 +1,5 @@
 def connect_to_game_server(self, server_address="127.0.0.1:8080"):
     """Simulates connecting to a game server."""
-    host, port = server_address.split(":")
     print(f"Connecting to game server at {host} on port {port}...")
     time.sleep(1)  # Simulate network delay
     self.is_connected = True
